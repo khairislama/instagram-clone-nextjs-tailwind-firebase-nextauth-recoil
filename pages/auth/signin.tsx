@@ -7,7 +7,7 @@ function signin({ providers }: any) {
     <>
       <Header />
       <div className="justify-content flex min-h-screen flex-col items-center py-2 px-14 text-center">
-        <img className="w-80" src="https://links.papareact.com/ocw" alt="" />
+        <img className="w-80" src="/logo.png" alt="" />
         <p className="font-xs italic">
           This is not a REAL app, it is built for education purposes only
         </p>

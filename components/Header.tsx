@@ -26,11 +26,7 @@ function Header() {
           onClick={() => router.push('/')}
           className="relative hidden w-24 cursor-pointer lg:inline-grid"
         >
-          <Image
-            src="https://links.papareact.com/ocw"
-            layout="fill"
-            objectFit="contain"
-          />
+          <Image src="/logo.png" layout="fill" objectFit="contain" />
         </div>
         <div
           onClick={() => router.push('/')}

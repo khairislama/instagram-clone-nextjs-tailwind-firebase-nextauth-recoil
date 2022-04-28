@@ -125,7 +125,7 @@ function Post({ id, username, userImg, img, caption }: Props) {
       {/* Caption */}
       <p className="truncate p-5">
         {likes.length > 0 && (
-          <p className="mb-1 font-bold">{likes.length} likes</p>
+          <span className="mb-1 font-bold">{likes.length} likes</span>
         )}
         <span className="mr-1 font-bold">{username}: </span>
         {caption}
